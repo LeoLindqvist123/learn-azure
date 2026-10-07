@@ -1,7 +1,7 @@
 name: azure-oidc-test
 on:
   push:
-    branches: [main, master]
+    branches: [main]
   workflow_dispatch:
 permissions:
   id_token: write
